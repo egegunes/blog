@@ -1,0 +1,24 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "egegunes"
+theme = "xmin"
+googleAnalytics = "UA-103076598-2"
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
+
+[params]
+    description = ""
+    footer = "&copy; Ege Güneş 2017 -- 2018 | [Github](https://github.com/egegunes)"
